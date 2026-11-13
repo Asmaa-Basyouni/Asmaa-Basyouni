@@ -8,12 +8,9 @@
 
 ## `$ squeue -u asmaa`
 
-```text
- JOBID  PARTITION  NAME                              ST  TIME     NODELIST(REASON)
- 2025   trieste    mhpc_master_ictp_sissa            R   1y+      ictp-sissa
- 2026   boost_gpu  port_ocean_model_to_gpu           R   ongoing  leonardo[A100]
- 2026   caen       phd_km3net_neutrino_telescope     PD  0:00     (BeginTime=2026-12)
-```
+<div align="center">
+  <img src="assets/squeue.svg" width="860" alt="Job queue: MHPC master at ICTP/SISSA, running. GPU acceleration of SHYFEM-BFM on Leonardo, running. PhD on the KM3NeT neutrino telescope at Caen, pending: begins December 2026."/>
+</div>
 
 ```text
 $ sacct -u asmaa --state=COMPLETED
