@@ -19,7 +19,7 @@ $ sacct -u asmaa --state=COMPLETED
  2023-2025  msc_experimental_nuclear_physics  Fayoum University  COMPLETED
             └─ thesis: gas detector simulation with Geant4 + deep learning
  2019-2023  bsc_physics                       Fayoum University  COMPLETED  (very good, 83.31%)
- 2023-2025  teaching_cpp_and_geant4           Fayoum University  COMPLETED
+            teaching_cpp_and_geant4           Fayoum University  COMPLETED
 ```
 
 ## `$ nvim about_me.f90`
