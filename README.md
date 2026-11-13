@@ -12,10 +12,10 @@
   <img src="assets/squeue.svg" width="860" alt="Job queue: MHPC master at ICTP/SISSA, running until 15 December 2026. GPU acceleration of SHYFEM-BFM on Leonardo, running. PhD on the KM3NeT neutrino telescope at Caen, pending: begins December 2026."/>
 </div>
 
-#### `$ sacct -u asmaa --state=COMPLETED`
+#### `$ nsys-ui career.nsys-rep`
 
 <div align="center">
-  <img src="assets/sacct.svg" width="860" alt="Completed: M.Sc. in Experimental Nuclear Physics (thesis: gas detector simulation with Geant4 and deep learning), research assistant at CHEP-FU, guest lecturer in C++ and Geant4, B.Sc. in Physics (project: charged multiplicity in pp collisions with PYTHIA8). All at Fayoum University."/>
+  <img src="assets/timeline.svg" width="860" alt="Career drawn as a profiler timeline, 2019 to 2028. Education: B.Sc. Physics (2019-2023), M.Sc. Experimental Nuclear Physics (2023-2025), MHPC at ICTP/SISSA (2025 to December 2026), PhD at LPC Caen (from December 2026). Research: research assistant at CHEP-FU, GPU port of SHYFEM-BFM, KM3NeT. Teaching: guest lecturer in C++ and Geant4, June 2025. Schools and workshops, 2024 to 2026."/>
 </div>
 
 ## `$ nvim about_me.f90`
