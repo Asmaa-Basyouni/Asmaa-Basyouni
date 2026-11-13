@@ -19,8 +19,10 @@
 $ sacct -u asmaa --state=COMPLETED
  2023-2025  msc_experimental_nuclear_physics  Fayoum University  COMPLETED
             └─ thesis: gas detector simulation with Geant4 + deep learning
+ 2023-2025  research_assistant_chep_fu        Fayoum University  COMPLETED
+ 2025-06    guest_lecturer_cpp_and_geant4     Fayoum University  COMPLETED
  2019-2023  bsc_physics                       Fayoum University  COMPLETED  (very good, 83.31%)
-            teaching_cpp_and_geant4           Fayoum University  COMPLETED
+            └─ project: charged multiplicity in pp collisions with PYTHIA8
 ```
 
 ## `$ nvim about_me.f90`
@@ -48,38 +50,38 @@ program asmaa
 end program asmaa
 ```
 
-## `$ module list`
+## `$ perf record -g ./asmaa | flamegraph.pl`
 
-```text
-Currently Loaded Modules:
-  languages/   fortran   c   c++   python   bash   matlab   sql
-  parallel/    mpi   openmp   openacc   cuda   cupy   petsc   blas-lapack
-  cluster/     slurm   apptainer   perf + flame graphs   cmake   git   docker   ansible
-  physics/     geant4   garfield++   root   pythia8   monte-carlo
-  ml/          pytorch   tensorflow   keras   scikit-learn   numpy   pandas
-  editor/      neovim   (built from source on the cluster, obviously)
-```
+<div align="center">
+  <img src="assets/flamegraph.svg" width="860" alt="Flame graph of skills. Physics: KM3NeT, Geant4, Garfield++, MEJ-ESS, PYTHIA8. HPC: MPI, OpenMP, GPU offloading with OpenMP target, OpenACC and CUDA, profiling with perf, FlameGraph and Nsight, SLURM. ML: PyTorch, scikit-learn."/>
+</div>
+
+<sub>Also loaded: Fortran · C · C++ · Python · Bash · MATLAB · SQL · CuPy · PETSc · BLAS/LAPACK · ROOT · Apptainer · CMake · Git · Docker · Ansible · TensorFlow · Keras · NumPy · Pandas · LaTeX · Neovim (built from source on the cluster, obviously)</sub>
 
 ## `$ ls ~/work`
 
 | | |
 |---|---|
 | 🌌 **KM3NeT** (from Dec 2026) | PhD at LPC Caen (Université de Caen Normandie, CNRS/IN2P3) on the KM3NeT deep-sea neutrino telescope. |
-| 🌊 **GPU port of a coupled ocean model** | Profiling and porting SHYFEM-BFM to GPUs on Leonardo (CINECA): find the hot loops, move them, prove the answers didn't change. |
-| 🎲 **MEJ-ESS** | An enhanced Monte Carlo simulator for electron transport in gaseous detectors. *A. M. Abdelalim, A. Basyouni, A. Radi, et al.*, submitted to *Communications Physics* (2025). |
+| 🌊 **GPU acceleration of SHYFEM-BFM** | MHPC project on Leonardo (CINECA): profile the coupled ocean model with perf, FlameGraph and Nsight Systems, offload the hot spots to the GPU, then prove the answers didn't change. |
+| 🎲 **MEJ-ESS** | An enhanced Monte Carlo simulator for electron transport in gaseous detectors, built on LXCat cross-sections. *A. M. Abdelalim, A. Basyouni, A. Radi, et al.*, submitted to *Communications Physics* (2025). |
 | 🧠 **Neural surrogates for gas detectors** | ANNs that predict drift velocity, diffusion and Townsend coefficients, used to explore eco-friendly gas mixtures. |
 | 🛡️ **RPC neutron sensitivity** | Geant4 study of double-gap resistive plate chambers. |
+| 💥 **Charged multiplicity in pp collisions** | PYTHIA8 simulations at √s = 14, 20 and 27 TeV: multiplicity across pseudorapidity regions and transverse momentum spectra. |
 
 <details>
 <summary><code>$ cat schools_and_grants.txt</code></summary>
 <br/>
 
-- Selected for the 48th CERN School of Computing, with a full fee waiver (CHF 1,650)
-- Lake Como School on Statistical Physics of Deep Learning III, with a fee waiver (EUR 400)
-- ICTP Magurele Summer School on Parallel Algorithms, with a travel grant (EUR 300)
-- Sarajevo School of High Energy Physics 2025
-- CERN Dark Showers Workshop · CMS Open Data Workshop & Hackathon
-- ML4FP School (LBNL) · AI Winter School (Brown University)
+**Grants**
+- Full fee waiver (CHF 1,650), 48th CERN School of Computing 2026 (admitted)
+- Fee waiver (EUR 400), Lake Como School on the Statistical Physics of Deep Learning III, 2026
+- Grant (EUR 300), Magurele Summer School on Parallel Algorithms and Optimizations, 2025
+
+**Schools and workshops**
+- 2026: Recent Progress in Machine Learning, High-Dimensional Statistics and Inference (ICTP) · Lake Como School on the Statistical Physics of Deep Learning III · TUM Campus Heilbronn HPC Driving AI Summer School (admitted)
+- 2025: Magurele Summer School on Parallel Algorithms and Optimizations · Sarajevo School of High Energy Physics · Introduction to Supercomputing at JSC · Interactive HPC with JupyterLab (JSC) · Python Binding for C/C++ (SLING) · 14th Course on Physics at the LHC (LIP) · CERN Dark Showers Workshop · AI Winter School (Brown University)
+- 2024: ML4FP School (LBNL) · CMS Open Data Workshop & Hackathon (CERN) · Egypt Scholars Advanced Lab (NLP)
 
 </details>
 
