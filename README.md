@@ -73,18 +73,20 @@ end program asmaa
 
 ## `$ ls ~/work`
 
-| | |
-|---|---|
-| 🌌 **KM3NeT** (from Dec 2026) | PhD at LPC Caen (Université de Caen Normandie, CNRS/IN2P3) on the KM3NeT deep-sea neutrino telescope. |
-| 🌊 **GPU acceleration of SHYFEM-BFM** | MHPC project on Leonardo (CINECA): profile the coupled ocean model with perf, FlameGraph and Nsight Systems, offload the hot spots to the GPU, then prove the answers didn't change. |
-| 🎲 **MEJ-ESS** | An enhanced Monte Carlo simulator for electron transport in gaseous detectors, built on LXCat cross-sections. *A. M. Abdelalim, A. Basyouni, A. Radi, et al.*, submitted to *Communications Physics* (2025). |
-| 🧠 **Neural surrogates for gas detectors** | ANNs that predict drift velocity, diffusion and Townsend coefficients, used to explore eco-friendly gas mixtures. |
-| 🛡️ **RPC neutron sensitivity** | Geant4 study of double-gap resistive plate chambers. |
-| 💥 **Charged multiplicity in pp collisions** | PYTHIA8 simulations at √s = 14, 20 and 27 TeV: multiplicity across pseudorapidity regions and transverse momentum spectra. |
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/work-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/work-light.svg"/>
+    <img src="assets/work-dark.svg" width="860" alt="Projects. KM3NeT: PhD at LPC Caen (Université de Caen Normandie, CNRS/IN2P3) on the deep-sea neutrino telescope, from December 2026. GPU acceleration of SHYFEM-BFM: MHPC project on Leonardo. MEJ-ESS: Monte Carlo simulator for electron transport in gaseous detectors, built on LXCat cross-sections. Neural surrogates for gas detectors. RPC neutron sensitivity with Geant4. Charged multiplicity in pp collisions with PYTHIA8 at 14, 20 and 27 TeV."/>
+  </picture>
+</div>
 
 <details>
-<summary><code>$ cat schools_and_grants.txt</code></summary>
+<summary><code>$ cat publications_schools_grants.txt</code> &nbsp;(click to expand)</summary>
 <br/>
+
+**Publication**
+- *MEJ-ESS: An Enhanced Monte Carlo Simulator for Electron Transport in Gaseous Detectors.* A. M. Abdelalim, A. Basyouni, A. Radi, Y. Mohammed, M. Kassab, A. A.-L. Mohamed, M. A. Mahmoud. Manuscript in submission to *Communications Physics* (2025).
 
 **Grants**
 - Full fee waiver (CHF 1,650), 48th CERN School of Computing 2026 (admitted)
@@ -100,11 +102,37 @@ end program asmaa
 
 ## `$ ping asmaa`
 
-```text
-64 bytes from asmaa: time=fast  if you write about neutrinos, GPUs or Monte Carlo
-```
-
-[LinkedIn](https://www.linkedin.com/in/asmaa-basyouni) &nbsp;·&nbsp; [asmaa.basyouni@cern.ch](mailto:asmaa.basyouni@cern.ch) &nbsp;·&nbsp; [abasyoun@sissa.it](mailto:abasyoun@sissa.it)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ping-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/ping-light.svg"/>
+    <img src="assets/ping-dark.svg" width="860" alt="Ping asmaa: fast replies on neutrinos, GPUs and Monte Carlo. 3 sent, 3 answered, 0% small talk."/>
+  </picture>
+  <br/><br/>
+  <a href="https://www.linkedin.com/in/asmaa-basyouni">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="assets/btn-linkedin-light.svg"/>
+      <img src="assets/btn-linkedin-dark.svg" height="34" alt="LinkedIn"/>
+    </picture>
+  </a>
+  &nbsp;
+  <a href="mailto:asmaa.basyouni@cern.ch">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-cern-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="assets/btn-cern-light.svg"/>
+      <img src="assets/btn-cern-dark.svg" height="34" alt="asmaa.basyouni@cern.ch"/>
+    </picture>
+  </a>
+  &nbsp;
+  <a href="mailto:abasyoun@sissa.it">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/btn-sissa-dark.svg"/>
+      <source media="(prefers-color-scheme: light)" srcset="assets/btn-sissa-light.svg"/>
+      <img src="assets/btn-sissa-dark.svg" height="34" alt="abasyoun@sissa.it"/>
+    </picture>
+  </a>
+</div>
 
 <br/>
 
