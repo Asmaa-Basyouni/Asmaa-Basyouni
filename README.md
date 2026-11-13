@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="assets/terminal.svg" width="860" alt="Terminal session: Asmaa Basyouni, a physicist who makes scientific code run fast on GPUs. From Fayoum, Egypt to Trieste, Italy; from nuclear physics to high performance computing."/>
+  <img src="assets/deep-sea.svg" width="860" alt="Asmaa Basyouni. Neutrinos, GPUs, Monte Carlo. PhD at LPC Caen with KM3NeT from December 2026."/>
+  <br/><br/>
+  <img src="assets/terminal.svg" width="860" alt="Terminal session: Asmaa Basyouni, a physicist who makes scientific code run fast on GPUs. Nuclear physics, then high performance computing, then neutrino physics. Motto: measure first, then believe."/>
 </div>
 
 <br/>
@@ -10,8 +12,7 @@
  JOBID  PARTITION  NAME                              ST  TIME     NODELIST(REASON)
  2025   trieste    mhpc_master_ictp_sissa            R   1y+      ictp-sissa
  2026   boost_gpu  port_ocean_model_to_gpu           R   ongoing  leonardo[A100]
- 2026   daily      imparare_l_italiano               R   slowly   trieste
- 2027   europe     phd_detector_sim_or_ml4physics    PD  0:00     (WaitingForTheRightGroup)
+ 2026   caen       phd_km3net_neutrino_telescope     PD  0:00     (BeginTime=2026-12)
 ```
 
 ```text
@@ -26,13 +27,14 @@ $ sacct -u asmaa --state=COMPLETED
 
 ```fortran
 program asmaa
-  use physics,  only: nuclear, gaseous_detectors, monte_carlo
+  use physics,  only: nuclear, gaseous_detectors, monte_carlo, neutrinos
   use hpc,      only: mpi, openacc, cuda, slurm
-  use learning, only: pytorch, italian
+  use learning, only: pytorch
   implicit none                      ! no implicit assumptions, in code or in life
 
-  character(len=*), parameter :: origin = "Egypt", base = "Trieste, Italy"
-  logical,          parameter :: takes_it_on_faith = .false.
+  logical, parameter :: takes_it_on_faith = .false.
+  logical, parameter :: sugar_coating     = .false.   ! direct by default
+  integer, parameter :: focus             = huge(1)   ! quiet mode: on
 
   do while (code_is_slow())
      call profile()                  ! measure first, guess never
@@ -42,17 +44,9 @@ program asmaa
 
   if (.not. takes_it_on_faith) call check_it_myself()
 
-  print *, "Looking for a PhD: detector simulation, Monte Carlo, ML for particle physics"
+  print *, "Next: PhD at LPC Caen with KM3NeT, catching neutrinos at the bottom of the sea"
 end program asmaa
 ```
-
-## ⚛️ Decay chain
-
-Every stage was unstable in the best way: it decayed into the next question.
-
-<div align="center">
-  <img src="assets/decay-chain.svg" width="860" alt="Decay chain: B.Sc. Physics, then M.Sc. Experimental Nuclear Physics, then Master in HPC at ICTP/SISSA, then a PhD with branching ratio about 100%"/>
-</div>
 
 ## `$ module list`
 
@@ -70,6 +64,7 @@ Currently Loaded Modules:
 
 | | |
 |---|---|
+| 🌌 **KM3NeT** (from Dec 2026) | PhD at LPC Caen (Université de Caen Normandie, CNRS/IN2P3) on the KM3NeT deep-sea neutrino telescope. |
 | 🌊 **GPU port of a coupled ocean model** | Profiling and porting SHYFEM-BFM to GPUs on Leonardo (CINECA): find the hot loops, move them, prove the answers didn't change. |
 | 🎲 **MEJ-ESS** | An enhanced Monte Carlo simulator for electron transport in gaseous detectors. *A. M. Abdelalim, A. Basyouni, A. Radi, et al.*, submitted to *Communications Physics* (2025). |
 | 🧠 **Neural surrogates for gas detectors** | ANNs that predict drift velocity, diffusion and Townsend coefficients, used to explore eco-friendly gas mixtures. |
@@ -91,7 +86,7 @@ Currently Loaded Modules:
 ## `$ ping asmaa`
 
 ```text
-64 bytes from asmaa: time=fast  if you write about physics, GPUs or a PhD position
+64 bytes from asmaa: time=fast  if you write about neutrinos, GPUs or Monte Carlo
 ```
 
 [LinkedIn](https://www.linkedin.com/in/asmaa-basyouni) &nbsp;·&nbsp; [asmaa.basyouni@cern.ch](mailto:asmaa.basyouni@cern.ch) &nbsp;·&nbsp; [abasyoun@sissa.it](mailto:abasyoun@sissa.it)
