@@ -9,18 +9,14 @@
 ## `$ squeue -u asmaa`
 
 <div align="center">
-  <img src="assets/squeue.svg" width="860" alt="Job queue: MHPC master at ICTP/SISSA, running. GPU acceleration of SHYFEM-BFM on Leonardo, running. PhD on the KM3NeT neutrino telescope at Caen, pending: begins December 2026."/>
+  <img src="assets/squeue.svg" width="860" alt="Job queue: MHPC master at ICTP/SISSA, running until 15 December 2026. GPU acceleration of SHYFEM-BFM on Leonardo, running. PhD on the KM3NeT neutrino telescope at Caen, pending: begins December 2026."/>
 </div>
 
-```text
-$ sacct -u asmaa --state=COMPLETED
- 2023-2025  msc_experimental_nuclear_physics  Fayoum University  COMPLETED
-            └─ thesis: gas detector simulation with Geant4 + deep learning
- 2023-2025  research_assistant_chep_fu        Fayoum University  COMPLETED
- 2025-06    guest_lecturer_cpp_and_geant4     Fayoum University  COMPLETED
- 2019-2023  bsc_physics                       Fayoum University  COMPLETED  (very good, 83.31%)
-            └─ project: charged multiplicity in pp collisions with PYTHIA8
-```
+#### `$ sacct -u asmaa --state=COMPLETED`
+
+<div align="center">
+  <img src="assets/sacct.svg" width="860" alt="Completed: M.Sc. in Experimental Nuclear Physics (thesis: gas detector simulation with Geant4 and deep learning), research assistant at CHEP-FU, guest lecturer in C++ and Geant4, B.Sc. in Physics (project: charged multiplicity in pp collisions with PYTHIA8). All at Fayoum University."/>
+</div>
 
 ## `$ nvim about_me.f90`
 

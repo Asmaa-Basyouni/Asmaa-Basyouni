@@ -7,11 +7,11 @@
 <text x="516" y="30" fill="#6b7394" font-size="12">PROGRESS</text>
 <text x="690" y="30" fill="#6b7394" font-size="12">NODELIST(REASON)</text>
 <path d="M24 40H836" stroke="#2a2c41"/>
-<text x="28" y="64" fill="#6b7394">2025</text><text x="92" y="64" fill="#a0a8cd">trieste</text><text x="196" y="64" fill="#ffffff">mhpc_master_ictp_sissa</text><text x="690" y="64" fill="#a0a8cd">ictp-sissa</text>
+<text x="28" y="64" fill="#6b7394">2025</text><text x="92" y="64" fill="#a0a8cd">trieste</text><text x="196" y="64" fill="#ffffff">mhpc_master_ictp_sissa</text><text x="690" y="64" fill="#a0a8cd">(EndTime=2026-12-15)</text>
 <text x="470" y="64" fill="#95c561" font-weight="700">R</text>
 <clipPath id="b0"><rect x="516" y="54" width="150" height="10" rx="5"/></clipPath>
 <rect x="516" y="54" width="150" height="10" rx="5" fill="#2a2c41"/><g clip-path="url(#b0)">
-<rect x="516" y="54" width="70" height="10" rx="5" fill="#7199ee"><animateTransform attributeName="transform" type="translate" from="-70 0" to="150 0" dur="1.8s" repeatCount="indefinite"/></rect></g>
+<rect x="516" y="54" width="140" height="10" rx="5" fill="#7199ee"><animate attributeName="opacity" values=".65;1;.65" dur="1.8s" repeatCount="indefinite"/></rect></g>
 <text x="28" y="96" fill="#6b7394">2026</text><text x="92" y="96" fill="#a0a8cd">boost_gpu</text><text x="196" y="96" fill="#ffffff">gpu_acceleration_shyfem_bfm</text><text x="690" y="96" fill="#a0a8cd">leonardo[A100]</text>
 <text x="470" y="96" fill="#95c561" font-weight="700">R</text>
 <clipPath id="b1"><rect x="516" y="86" width="150" height="10" rx="5"/></clipPath>

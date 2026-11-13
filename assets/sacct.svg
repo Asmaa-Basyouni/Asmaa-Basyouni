@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 230" width="860" role="img" aria-label="Completed jobs: M.Sc. in Experimental Nuclear Physics, research assistant at CHEP-FU, guest lecturer in C++ and Geant4, B.Sc. in Physics, all at Fayoum University.">
+<rect width="860" height="230" rx="12" fill="#11121d"/><g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5">
+<text x="28" y="30" fill="#6b7394" font-size="12">PERIOD</text>
+<text x="140" y="30" fill="#6b7394" font-size="12">JOBNAME</text>
+<text x="500" y="30" fill="#6b7394" font-size="12">WHERE</text>
+<text x="700" y="30" fill="#6b7394" font-size="12">STATE</text>
+<path d="M24 40H836" stroke="#2a2c41"/>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.30s" dur="0.35s" fill="freeze"/><text x="28" y="64" fill="#6b7394">2023-2025</text><text x="140" y="64" fill="#ffffff">msc_experimental_nuclear_physics</text><text x="500" y="64" fill="#a0a8cd">Fayoum University</text>
+<text x="140" y="85" fill="#6b7394" font-size="12.5">└─ thesis: gas detector simulation with Geant4 + deep learning</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur="0.35s" fill="freeze"/><rect x="700" y="49" width="124" height="21" rx="10.5" fill="#95c561" fill-opacity=".14" stroke="#95c561" stroke-opacity=".6"/><path d="M711 59l4 4 7-8" fill="none" stroke="#95c561" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="730" y="64" fill="#95c561" font-size="12.5" font-weight="700">COMPLETED</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.35s" fill="freeze"/><text x="28" y="118" fill="#6b7394">2023-2025</text><text x="140" y="118" fill="#ffffff">research_assistant_chep_fu</text><text x="500" y="118" fill="#a0a8cd">Fayoum University</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.35s" fill="freeze"/><rect x="700" y="103" width="124" height="21" rx="10.5" fill="#95c561" fill-opacity=".14" stroke="#95c561" stroke-opacity=".6"/><path d="M711 113l4 4 7-8" fill="none" stroke="#95c561" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="730" y="118" fill="#95c561" font-size="12.5" font-weight="700">COMPLETED</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.20s" dur="0.35s" fill="freeze"/><text x="28" y="150" fill="#6b7394">2025-06</text><text x="140" y="150" fill="#ffffff">guest_lecturer_cpp_and_geant4</text><text x="500" y="150" fill="#a0a8cd">Fayoum University</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.50s" dur="0.35s" fill="freeze"/><rect x="700" y="135" width="124" height="21" rx="10.5" fill="#95c561" fill-opacity=".14" stroke="#95c561" stroke-opacity=".6"/><path d="M711 145l4 4 7-8" fill="none" stroke="#95c561" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="730" y="150" fill="#95c561" font-size="12.5" font-weight="700">COMPLETED</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.35s" fill="freeze"/><text x="28" y="182" fill="#6b7394">2019-2023</text><text x="140" y="182" fill="#ffffff">bsc_physics  (very good, 83.31%)</text><text x="500" y="182" fill="#a0a8cd">Fayoum University</text>
+<text x="140" y="203" fill="#6b7394" font-size="12.5">└─ project: charged multiplicity in pp collisions with PYTHIA8</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.35s" fill="freeze"/><rect x="700" y="167" width="124" height="21" rx="10.5" fill="#95c561" fill-opacity=".14" stroke="#95c561" stroke-opacity=".6"/><path d="M711 177l4 4 7-8" fill="none" stroke="#95c561" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="730" y="182" fill="#95c561" font-size="12.5" font-weight="700">COMPLETED</text></g>
+</g></svg>
