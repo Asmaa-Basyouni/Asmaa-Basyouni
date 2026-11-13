@@ -36,28 +36,13 @@
 
 ## About
 
-```fortran
-program asmaa
-  use physics,  only: nuclear, gaseous_detectors, monte_carlo, neutrinos
-  use hpc,      only: mpi, openacc, cuda, slurm
-  use learning, only: pytorch
-  implicit none                      ! no implicit assumptions, in code or in life
-
-  logical, parameter :: takes_it_on_faith = .false.
-  logical, parameter :: sugar_coating     = .false.   ! direct by default
-  integer, parameter :: focus             = huge(1)   ! quiet mode: on
-
-  do while (code_is_slow())
-     call profile()                  ! measure first, guess never
-     call port_hot_loop_to_gpu()     ! one loop at a time
-     call verify()                   ! bit-identical or it didn't happen
-  end do
-
-  if (.not. takes_it_on_faith) call check_it_myself()
-
-  print *, "Next: PhD at LPC Caen with KM3NeT, catching neutrinos at the bottom of the sea"
-end program asmaa
-```
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/about-light.svg"/>
+    <img src="assets/about-dark.svg" width="860" alt="Measure first, then believe. I profile scientific codes, find the hot loops and move them to GPUs. Trained on particle detectors and Monte Carlo; next stop, neutrinos at the bottom of the sea. Direct by default. Quiet when focused. I check the result myself."/>
+  </picture>
+</div>
 
 ## Skills
 
