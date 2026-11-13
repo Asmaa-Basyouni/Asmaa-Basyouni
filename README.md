@@ -50,16 +50,9 @@ end program asmaa
 
 Every stage was unstable in the best way: it decayed into the next question.
 
-```mermaid
-flowchart LR
-    A["<b>B.Sc. Physics</b><br/>Fayoum University"]
-    B["<b>M.Sc. Experimental Nuclear Physics</b><br/>Geant4 · Garfield++ · neural surrogates"]
-    C["<b>Master in HPC</b><br/>ICTP / SISSA · Leonardo GPUs"]
-    D(("<b>PhD</b><br/>?"))
-    A -- "how do detectors really work?" --> B
-    B -- "my simulations need more compute" --> C
-    C -. "BR ≈ 100%" .-> D
-```
+<div align="center">
+  <img src="assets/decay-chain.svg" width="860" alt="Decay chain: B.Sc. Physics, then M.Sc. Experimental Nuclear Physics, then Master in HPC at ICTP/SISSA, then a PhD with branching ratio about 100%"/>
+</div>
 
 ## `$ module list`
 
@@ -81,7 +74,6 @@ Currently Loaded Modules:
 | 🎲 **MEJ-ESS** | An enhanced Monte Carlo simulator for electron transport in gaseous detectors. *A. M. Abdelalim, A. Basyouni, A. Radi, et al.*, submitted to *Communications Physics* (2025). |
 | 🧠 **Neural surrogates for gas detectors** | ANNs that predict drift velocity, diffusion and Townsend coefficients, used to explore eco-friendly gas mixtures. |
 | 🛡️ **RPC neutron sensitivity** | Geant4 study of double-gap resistive plate chambers. |
-| 🧰 **On GitHub** | [`Pythia8`](https://github.com/Asmaa-Basyouni/Pythia8) · [`Transport-without-B`](https://github.com/Asmaa-Basyouni/Transport-without-B) · [`nvim-config`](https://github.com/Asmaa-Basyouni/nvim-config) · [`Scripts`](https://github.com/Asmaa-Basyouni/Scripts) |
 
 <details>
 <summary><code>$ cat schools_and_grants.txt</code></summary>
@@ -107,8 +99,6 @@ Currently Loaded Modules:
 <br/>
 
 <div align="center">
-
-**شكراً &nbsp;·&nbsp; Thank you &nbsp;·&nbsp; Grazie**
 
 <img src="assets/statusline.svg" width="860" alt="Neovim status line: NORMAL mode, branch main, README.md"/>
 

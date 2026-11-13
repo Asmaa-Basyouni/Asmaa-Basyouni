@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 150" width="860" role="img" aria-label="Decay chain: B.Sc. Physics, then M.Sc. Experimental Nuclear Physics, then Master in HPC, then a PhD with branching ratio about 100 percent">
+<rect width="860" height="150" rx="12" fill="#11121d"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#6b7394"/></marker></defs>
+<g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" text-anchor="middle">
+<rect x="24" y="52" width="170" height="74" rx="8" fill="#1a1b2a" stroke="#f6955b" stroke-width="1.5"/><text x="109.0" y="76" font-size="13" font-weight="700" fill="#f6955b">B.Sc. Physics</text><text x="109.0" y="96" font-size="11.5" fill="#a0a8cd">Fayoum University</text><text x="109.0" y="113" font-size="11" fill="#6b7394">2019 – 2023</text>
+<rect x="270" y="52" width="230" height="74" rx="8" fill="#1a1b2a" stroke="#a485dd" stroke-width="1.5"/><text x="385.0" y="76" font-size="13" font-weight="700" fill="#a485dd">M.Sc. Exp. Nuclear Physics</text><text x="385.0" y="96" font-size="11.5" fill="#a0a8cd">Geant4 · Garfield++ · ANNs</text><text x="385.0" y="113" font-size="11" fill="#6b7394">2023 – 2025</text>
+<rect x="576" y="52" width="170" height="74" rx="8" fill="#1a1b2a" stroke="#7199ee" stroke-width="1.5"/><text x="661.0" y="76" font-size="13" font-weight="700" fill="#7199ee">Master in HPC</text><text x="661.0" y="96" font-size="11.5" fill="#a0a8cd">ICTP / SISSA · Leonardo</text><text x="661.0" y="113" font-size="11" fill="#6b7394">2025 – now</text>
+<circle cx="825" cy="89" r="25" fill="#1a1b2a" stroke="#95c561" stroke-width="1.5" stroke-dasharray="4 3"/><text x="825" y="87" font-size="12" font-weight="700" fill="#95c561">PhD</text><text x="825" y="102" font-size="12" fill="#95c561">?</text>
+<path d="M196 89H267" stroke="#6b7394" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M502 89H573" stroke="#6b7394" stroke-width="1.5" marker-end="url(#a)"/>
+<path d="M748 89H797" stroke="#6b7394" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#a)"/>
+<text x="232" y="34" font-size="11" font-style="italic" fill="#a0a8cd">how do detectors really work?</text>
+<text x="538" y="34" font-size="11" font-style="italic" fill="#a0a8cd">my simulations need more compute</text>
+<text x="773" y="34" font-size="11" font-style="italic" fill="#a0a8cd">BR ≈ 100%</text>
+<path d="M232 40V82" stroke="#6b7394" stroke-width="1" stroke-dasharray="2 3"/>
+<path d="M538 40V82" stroke="#6b7394" stroke-width="1" stroke-dasharray="2 3"/>
+<path d="M773 40V82" stroke="#6b7394" stroke-width="1" stroke-dasharray="2 3"/>
+</g></svg>
