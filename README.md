@@ -1,191 +1,115 @@
-<!-- ═══════════════ HEADER ═══════════════ -->
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:1f3a8a,70:58a6ff,100:7ee7ff&height=230&section=header&text=Asmaa%20Basyouni&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Physicist%20%E2%80%A2%20HPC%20%26%20GPU%20Computing%20%E2%80%A2%20Detector%20Simulation&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Asmaa Basyouni"/>
-
-<a href="https://github.com/Asmaa-Basyouni">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=820&height=45&lines=Experimental+Nuclear+%26+High+Energy+Physicist;Porting+scientific+codes+to+GPUs+%E2%9A%A1;Geant4+%7C+Garfield%2B%2B+%7C+Monte+Carlo;MPI+%7C+OpenMP+%7C+OpenACC+%7C+CUDA;Deep+Learning+for+Particle+%26+Detector+Physics" alt="Typing animation"/>
-</a>
-
-<p>
-  <a href="https://www.linkedin.com/in/asmaa-basyouni"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:asmaa.basyouni@cern.ch"><img src="https://img.shields.io/badge/CERN-asmaa.basyouni%40cern.ch-0033A0?style=for-the-badge&logo=cern&logoColor=white" alt="CERN email"/></a>
-  <a href="mailto:abasyoun@sissa.it"><img src="https://img.shields.io/badge/SISSA-abasyoun%40sissa.it-D62246?style=for-the-badge&logo=maildotru&logoColor=white" alt="SISSA email"/></a>
-</p>
-
-<img src="https://komarev.com/ghpvc/?username=Asmaa-Basyouni&style=flat-square&color=58A6FF&label=profile+views" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/Asmaa-Basyouni?style=flat-square&color=58A6FF&label=followers" alt="Followers"/>
-<img src="https://img.shields.io/badge/open%20to-PhD%20positions-2ea043?style=flat-square" alt="Open to PhD positions"/>
-
+  <img src="assets/terminal.svg" width="860" alt="Terminal session: Asmaa Basyouni, a physicist who makes scientific code run fast on GPUs. From Fayoum, Egypt to Trieste, Italy; from nuclear physics to high performance computing."/>
 </div>
 
 <br/>
 
-<!-- ═══════════════ ABOUT ═══════════════ -->
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28" alt="wave"/> About Me
+## `$ squeue -u asmaa`
 
-I'm a physicist working where **detector simulation**, **high-performance computing** and **deep learning** meet. I'm currently in the **Master in High Performance Computing (MHPC)** at **ICTP / SISSA** in Trieste, Italy, after an M.Sc. in Experimental Nuclear Physics at Fayoum University, where my thesis combined Monte Carlo detector simulation (Geant4, Garfield++) with neural-network surrogate models for electron transport in gas mixtures.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ Now
-- 🌊 GPU porting and performance optimisation of the coupled **SHYFEM-BFM** ocean modelling system
-- 🖥️ Running on the **Leonardo** supercomputer (CINECA) with **OpenACC**, **MPI** and **CUDA**
-- 🌱 Looking for a **PhD position** in detector simulation, Monte Carlo methods or deep learning for particle physics
-
-</td>
-<td width="50%" valign="top">
-
-### 🧪 Before
-- Built **MEJ-ESS**, an enhanced Monte Carlo simulator for electron transport in gaseous detectors
-- Studied neutron sensitivity of double-gap **RPC detectors** with Geant4
-- Trained ANNs to predict drift velocity, diffusion and Townsend coefficients, and explored **eco-friendly gas mixtures**
-- Taught undergraduate **C++** and **Geant4** at Fayoum University
-
-</td>
-</tr>
-</table>
-
-```python
-asmaa = {
-    "based_in":  "Trieste, Italy 🇮🇹",
-    "from":      "Egypt 🇪🇬",
-    "fields":    ["detector simulation", "HPC / GPU computing", "ML for physics"],
-    "daily":     ["Fortran", "C++", "Python", "OpenACC", "MPI", "SLURM"],
-    "editor":    "Neovim",
-    "open_to":   "PhD opportunities",
-}
+```text
+ JOBID  PARTITION  NAME                              ST  TIME     NODELIST(REASON)
+ 2025   trieste    mhpc_master_ictp_sissa            R   1y+      ictp-sissa
+ 2026   boost_gpu  port_ocean_model_to_gpu           R   ongoing  leonardo[A100]
+ 2026   daily      imparare_l_italiano               R   slowly   trieste
+ 2027   europe     phd_detector_sim_or_ml4physics    PD  0:00     (WaitingForTheRightGroup)
 ```
 
-<!-- ═══════════════ TECH STACK ═══════════════ -->
-## 🛠️ Tech Stack
+```text
+$ sacct -u asmaa --state=COMPLETED
+ 2023-2025  msc_experimental_nuclear_physics  Fayoum University  COMPLETED
+            └─ thesis: gas detector simulation with Geant4 + deep learning
+ 2019-2023  bsc_physics                       Fayoum University  COMPLETED  (very good, 83.31%)
+ 2023-2025  teaching_cpp_and_geant4           Fayoum University  COMPLETED
+```
 
-<div align="center">
+## `$ nvim about_me.f90`
 
-<img src="https://skillicons.dev/icons?i=c,cpp,python,matlab,bash,linux,git,docker,cmake,pytorch,tensorflow,sklearn,postgres,ansible,arduino,latex,neovim&perline=9" alt="Tech stack icons"/>
+```fortran
+program asmaa
+  use physics,  only: nuclear, gaseous_detectors, monte_carlo
+  use hpc,      only: mpi, openacc, cuda, slurm
+  use learning, only: pytorch, italian
+  implicit none                      ! no implicit assumptions, in code or in life
 
-<br/><br/>
+  character(len=*), parameter :: origin = "Egypt", base = "Trieste, Italy"
+  logical,          parameter :: takes_it_on_faith = .false.
 
-**HPC & Parallel Computing**
+  do while (code_is_slow())
+     call profile()                  ! measure first, guess never
+     call port_hot_loop_to_gpu()     ! one loop at a time
+     call verify()                   ! bit-identical or it didn't happen
+  end do
 
-<img src="https://img.shields.io/badge/Fortran-734F96?style=for-the-badge&logo=fortran&logoColor=white" alt="Fortran"/>
-<img src="https://img.shields.io/badge/MPI-8A2BE2?style=for-the-badge" alt="MPI"/>
-<img src="https://img.shields.io/badge/OpenMP-FF6F00?style=for-the-badge" alt="OpenMP"/>
-<img src="https://img.shields.io/badge/OpenACC-1E90FF?style=for-the-badge" alt="OpenACC"/>
-<img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA"/>
-<img src="https://img.shields.io/badge/CuPy-FF6600?style=for-the-badge" alt="CuPy"/>
-<img src="https://img.shields.io/badge/SLURM-00A8E1?style=for-the-badge" alt="SLURM"/>
-<img src="https://img.shields.io/badge/Apptainer-1D355C?style=for-the-badge" alt="Apptainer"/>
-<img src="https://img.shields.io/badge/PETSc-3776AB?style=for-the-badge" alt="PETSc"/>
-<img src="https://img.shields.io/badge/BLAS%20%2F%20LAPACK-013243?style=for-the-badge" alt="BLAS/LAPACK"/>
+  if (.not. takes_it_on_faith) call check_it_myself()
 
-**Physics & Simulation**
+  print *, "Looking for a PhD: detector simulation, Monte Carlo, ML for particle physics"
+end program asmaa
+```
 
-<img src="https://img.shields.io/badge/Geant4-003B6F?style=for-the-badge" alt="Geant4"/>
-<img src="https://img.shields.io/badge/Garfield%2B%2B-005F73?style=for-the-badge" alt="Garfield++"/>
-<img src="https://img.shields.io/badge/ROOT-FF4500?style=for-the-badge" alt="ROOT"/>
-<img src="https://img.shields.io/badge/PYTHIA8-CC0000?style=for-the-badge" alt="PYTHIA8"/>
-<img src="https://img.shields.io/badge/Monte%20Carlo-2E8B57?style=for-the-badge" alt="Monte Carlo"/>
+## ⚛️ Decay chain
 
-**Machine Learning & Data**
+Every stage was unstable in the best way: it decayed into the next question.
 
-<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
+```mermaid
+flowchart LR
+    A["<b>B.Sc. Physics</b><br/>Fayoum University"]
+    B["<b>M.Sc. Experimental Nuclear Physics</b><br/>Geant4 · Garfield++ · neural surrogates"]
+    C["<b>Master in HPC</b><br/>ICTP / SISSA · Leonardo GPUs"]
+    D(("<b>PhD</b><br/>?"))
+    A -- "how do detectors really work?" --> B
+    B -- "my simulations need more compute" --> C
+    C -. "BR ≈ 100%" .-> D
+```
 
-</div>
+## `$ module list`
 
-<!-- ═══════════════ PROJECTS ═══════════════ -->
-## 🚀 Featured Repositories
+```text
+Currently Loaded Modules:
+  languages/   fortran   c   c++   python   bash   matlab   sql
+  parallel/    mpi   openmp   openacc   cuda   cupy   petsc   blas-lapack
+  cluster/     slurm   apptainer   perf + flame graphs   cmake   git   docker   ansible
+  physics/     geant4   garfield++   root   pythia8   monte-carlo
+  ml/          pytorch   tensorflow   keras   scikit-learn   numpy   pandas
+  editor/      neovim   (built from source on the cluster, obviously)
+```
 
-<div align="center">
+## `$ ls ~/work`
 
-<a href="https://github.com/Asmaa-Basyouni/Pythia8"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Asmaa-Basyouni&repo=Pythia8&theme=tokyonight&hide_border=true" alt="Pythia8"/></a>
-<a href="https://github.com/Asmaa-Basyouni/Transport-without-B"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Asmaa-Basyouni&repo=Transport-without-B&theme=tokyonight&hide_border=true" alt="Transport-without-B"/></a>
-<a href="https://github.com/Asmaa-Basyouni/nvim-config"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Asmaa-Basyouni&repo=nvim-config&theme=tokyonight&hide_border=true" alt="nvim-config"/></a>
-<a href="https://github.com/Asmaa-Basyouni/Scripts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Asmaa-Basyouni&repo=Scripts&theme=tokyonight&hide_border=true" alt="Scripts"/></a>
-
-</div>
-
-<!-- ═══════════════ STATS ═══════════════ -->
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Asmaa-Basyouni&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asmaa-Basyouni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=Asmaa-Basyouni&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Asmaa-Basyouni&theme=tokyo-night&hide_border=true&area=true&radius=8" width="95%" alt="Contribution graph"/>
-
-</div>
-
-<!-- ═══════════════ CV ═══════════════ -->
-## 🎓 Education
-
-| | Degree | Institution | Years |
-|:-:|---|---|:-:|
-| 🇮🇹 | **Master in High Performance Computing** | ICTP / SISSA, Trieste | 2025 – present |
-| 🇪🇬 | **M.Sc. Experimental Nuclear Physics**<br/><sub>Thesis: Gas Detector Simulation with Geant4 and Deep Learning</sub> | Fayoum University | 2023 – 2025 |
-| 🇪🇬 | **B.Sc. Physics** <sub>(Very Good, 83.31%)</sub> | Fayoum University | 2019 – 2023 |
+| | |
+|---|---|
+| 🌊 **GPU port of a coupled ocean model** | Profiling and porting SHYFEM-BFM to GPUs on Leonardo (CINECA): find the hot loops, move them, prove the answers didn't change. |
+| 🎲 **MEJ-ESS** | An enhanced Monte Carlo simulator for electron transport in gaseous detectors. *A. M. Abdelalim, A. Basyouni, A. Radi, et al.*, submitted to *Communications Physics* (2025). |
+| 🧠 **Neural surrogates for gas detectors** | ANNs that predict drift velocity, diffusion and Townsend coefficients, used to explore eco-friendly gas mixtures. |
+| 🛡️ **RPC neutron sensitivity** | Geant4 study of double-gap resistive plate chambers. |
+| 🧰 **On GitHub** | [`Pythia8`](https://github.com/Asmaa-Basyouni/Pythia8) · [`Transport-without-B`](https://github.com/Asmaa-Basyouni/Transport-without-B) · [`nvim-config`](https://github.com/Asmaa-Basyouni/nvim-config) · [`Scripts`](https://github.com/Asmaa-Basyouni/Scripts) |
 
 <details>
-<summary><b>📝 Publications</b></summary>
+<summary><code>$ cat schools_and_grants.txt</code></summary>
 <br/>
 
-- **MEJ-ESS: An Enhanced Monte Carlo Simulator for Electron Transport in Gaseous Detectors**<br/>
-  *A. M. Abdelalim, A. Basyouni, A. Radi, et al.* — manuscript submitted to *Communications Physics* (2025)
+- Selected for the 48th CERN School of Computing, with a full fee waiver (CHF 1,650)
+- Lake Como School on Statistical Physics of Deep Learning III, with a fee waiver (EUR 400)
+- ICTP Magurele Summer School on Parallel Algorithms, with a travel grant (EUR 300)
+- Sarajevo School of High Energy Physics 2025
+- CERN Dark Showers Workshop · CMS Open Data Workshop & Hackathon
+- ML4FP School (LBNL) · AI Winter School (Brown University)
 
 </details>
 
-<details>
-<summary><b>🏫 Schools & Workshops</b></summary>
-<br/>
+## `$ ping asmaa`
 
-- 48th CERN School of Computing (2026)
-- Lake Como School on Statistical Physics of Deep Learning III
-- ICTP Magurele Summer School on Parallel Algorithms
-- Sarajevo School of High Energy Physics (2025)
-- CERN Dark Showers Workshop
-- CMS Open Data Workshop & Hackathon
-- ML4FP School (LBNL)
-- AI Winter School (Brown University)
+```text
+64 bytes from asmaa: time=fast  if you write about physics, GPUs or a PhD position
+```
 
-</details>
+[LinkedIn](https://www.linkedin.com/in/asmaa-basyouni) &nbsp;·&nbsp; [asmaa.basyouni@cern.ch](mailto:asmaa.basyouni@cern.ch) &nbsp;·&nbsp; [abasyoun@sissa.it](mailto:abasyoun@sissa.it)
 
-<details>
-<summary><b>🏆 Grants & Honors</b></summary>
-<br/>
-
-- 🥇 Full fee waiver — 48th CERN School of Computing (CHF 1,650)
-- 🥈 Fee waiver — Lake Como School on Statistical Physics of Deep Learning III (EUR 400)
-- 🥉 Travel grant — Magurele Summer School on Parallel Algorithms (EUR 300)
-
-</details>
-
-<!-- ═══════════════ FOOTER ═══════════════ -->
 <br/>
 
 <div align="center">
 
-### 📫 Let's Connect
+**شكراً &nbsp;·&nbsp; Thank you &nbsp;·&nbsp; Grazie**
 
-<a href="https://www.linkedin.com/in/asmaa-basyouni"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:asmaa.basyouni@cern.ch"><img src="https://img.shields.io/badge/CERN%20Email-0033A0?style=for-the-badge&logo=cern&logoColor=white" alt="CERN email"/></a>
-<a href="mailto:abasyoun@sissa.it"><img src="https://img.shields.io/badge/SISSA%20Email-D62246?style=for-the-badge&logo=maildotru&logoColor=white" alt="SISSA email"/></a>
-
-<br/><br/>
-
-<i>🔭 Open to PhD opportunities in detector simulation, Monte Carlo methods and deep learning for particle physics.</i>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7ee7ff,30:58a6ff,65:1f3a8a,100:0d1117&height=120&section=footer" width="100%" alt=""/>
+<img src="assets/statusline.svg" width="860" alt="Neovim status line: NORMAL mode, branch main, README.md"/>
 
 </div>
