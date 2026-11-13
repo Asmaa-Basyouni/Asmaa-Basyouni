@@ -216,4 +216,4 @@
 <path d="M735.6 202.0l5 6-5 6-5-6z" fill="#b07ce8" stroke="#1b1c1f" stroke-width=".8"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.4s" fill="freeze"/><path d="M760.1 30V230" stroke="#e0556b" stroke-width="1.2"/><rect x="743.1" y="28" width="34" height="14" rx="3" fill="#e0556b"/><text x="760.1" y="38.5" text-anchor="middle" font-size="9.5" font-weight="700" fill="#fff">now</text></g>
-</g></svg>
+</g><rect x=".5" y=".5" width="859" height="229" rx="10" fill="none" /></svg>

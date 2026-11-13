@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 30" width="860" role="img" aria-label="Neovim status line: normal mode, README.md">
+<rect width="860" height="30" rx="6" fill="#e9ecf3"/><g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13">
+<path d="M156 0h110l10 15-10 15H156z" fill="#e9ecf3"/>
+<text x="216.0" y="20" text-anchor="middle" fill="#3b4261">README.md</text>
+<path d="M86 0h70l10 15-10 15H86z" fill="#d5d9e6"/>
+<text x="126.0" y="20" text-anchor="middle" fill="#7847bd">main</text>
+<path d="M6 0h80l10 15-10 15H6a6 6 0 0 1-6-6V6a6 6 0 0 1 6-6z" fill="#2e7de9"/>
+<text x="45.0" y="20" text-anchor="middle" fill="#fbfcfe" font-weight="700">NORMAL</text>
+<path d="M650 0h64v30h-64l-10-15z" fill="#e9ecf3"/>
+<text x="677.0" y="20" text-anchor="middle" fill="#7c84a8">utf-8</text>
+<path d="M714 0h84v30h-84l-10-15z" fill="#d5d9e6"/>
+<text x="751.0" y="20" text-anchor="middle" fill="#b15c00">fortran</text>
+<path d="M798 0h56a6 6 0 0 1 6 6v18a6 6 0 0 1-6 6h-56l-10-15z" fill="#2e7de9"/>
+<text x="827.0" y="20" text-anchor="middle" fill="#fbfcfe" font-weight="700">100%</text>
+<text x="450.0" y="20" text-anchor="middle" fill="#7c84a8">-- thanks for scrolling · :wq --</text>
+</g></svg>

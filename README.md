@@ -1,7 +1,15 @@
 <div align="center">
-  <img src="assets/deep-sea.svg" width="860" alt="Asmaa Basyouni. Neutrinos, GPUs, Monte Carlo. PhD at LPC Caen with KM3NeT from December 2026."/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/deep-sea-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/deep-sea-light.svg"/>
+    <img src="assets/deep-sea-dark.svg" width="860" alt="Asmaa Basyouni. Neutrinos, GPUs, Monte Carlo. PhD at LPC Caen with KM3NeT from December 2026."/>
+  </picture>
   <br/><br/>
-  <img src="assets/terminal.svg" width="860" alt="Terminal session: Asmaa Basyouni, a physicist who makes scientific code run fast on GPUs. Nuclear physics, then high performance computing, then neutrino physics. Motto: measure first, then believe."/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/terminal-light.svg"/>
+    <img src="assets/terminal-dark.svg" width="860" alt="Terminal session: Asmaa Basyouni, a physicist who makes scientific code run fast on GPUs. Nuclear physics, then high performance computing, then neutrino physics. Motto: measure first, then believe."/>
+  </picture>
 </div>
 
 <br/>
@@ -9,13 +17,21 @@
 ## `$ squeue -u asmaa`
 
 <div align="center">
-  <img src="assets/squeue.svg" width="860" alt="Job queue: MHPC master at ICTP/SISSA, running until 15 December 2026. GPU acceleration of SHYFEM-BFM on Leonardo, running. PhD on the KM3NeT neutrino telescope at Caen, pending: begins December 2026."/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/squeue-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/squeue-light.svg"/>
+    <img src="assets/squeue-dark.svg" width="860" alt="Job queue: MHPC master at ICTP/SISSA, running until 15 December 2026. GPU acceleration of SHYFEM-BFM on Leonardo, running. PhD on the KM3NeT neutrino telescope at Caen, pending: begins December 2026."/>
+  </picture>
 </div>
 
 #### `$ nsys-ui career.nsys-rep`
 
 <div align="center">
-  <img src="assets/timeline.svg" width="860" alt="Career drawn as a profiler timeline, 2019 to 2028. Education: B.Sc. Physics (2019-2023), M.Sc. Experimental Nuclear Physics (2023-2025), MHPC at ICTP/SISSA (2025 to December 2026), PhD at LPC Caen (from December 2026). Research: research assistant at CHEP-FU, GPU port of SHYFEM-BFM, KM3NeT. Teaching: guest lecturer in C++ and Geant4, June 2025. Schools and workshops, 2024 to 2026."/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/timeline-light.svg"/>
+    <img src="assets/timeline-dark.svg" width="860" alt="Career drawn as a profiler timeline, 2019 to 2028. Education: B.Sc. Physics (2019-2023), M.Sc. Experimental Nuclear Physics (2023-2025), MHPC at ICTP/SISSA (2025 to December 2026), PhD at LPC Caen (from December 2026). Research: research assistant at CHEP-FU, GPU port of SHYFEM-BFM, KM3NeT. Teaching: guest lecturer in C++ and Geant4, June 2025. Schools and workshops, 2024 to 2026."/>
+  </picture>
 </div>
 
 ## `$ nvim about_me.f90`
@@ -46,7 +62,11 @@ end program asmaa
 ## `$ perf record -g ./asmaa | flamegraph.pl`
 
 <div align="center">
-  <img src="assets/flamegraph.svg" width="860" alt="Flame graph of skills. Physics: KM3NeT, Geant4, Garfield++, MEJ-ESS, PYTHIA8. HPC: MPI, OpenMP, GPU offloading with OpenMP target, OpenACC and CUDA, profiling with perf, FlameGraph and Nsight, SLURM. ML: PyTorch, scikit-learn."/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/flamegraph-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/flamegraph-light.svg"/>
+    <img src="assets/flamegraph-dark.svg" width="860" alt="Flame graph of skills. Physics: KM3NeT, Geant4, Garfield++, MEJ-ESS, PYTHIA8. HPC: MPI, OpenMP, GPU offloading with OpenMP target, OpenACC and CUDA, profiling with perf, FlameGraph and Nsight, SLURM. ML: PyTorch, scikit-learn."/>
+  </picture>
 </div>
 
 <sub>Also loaded: Fortran · C · C++ · Python · Bash · MATLAB · SQL · CuPy · PETSc · BLAS/LAPACK · ROOT · Apptainer · CMake · Git · Docker · Ansible · TensorFlow · Keras · NumPy · Pandas · LaTeX · Neovim (built from source on the cluster, obviously)</sub>
@@ -90,6 +110,10 @@ end program asmaa
 
 <div align="center">
 
-<img src="assets/statusline.svg" width="860" alt="Neovim status line: NORMAL mode, branch main, README.md"/>
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/statusline-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/statusline-light.svg"/>
+    <img src="assets/statusline-dark.svg" width="860" alt="Neovim status line: NORMAL mode, branch main, README.md"/>
+  </picture>
 
 </div>
