@@ -103,12 +103,6 @@ end program asmaa
 ## Contact
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ping-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="assets/ping-light.svg"/>
-    <img src="assets/ping-dark.svg" width="860" alt="Ping asmaa: fast replies on neutrinos, GPUs and Monte Carlo. 3 sent, 3 answered, 0% small talk."/>
-  </picture>
-  <br/><br/>
   <a href="https://www.linkedin.com/in/asmaa-basyouni">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"/>
