@@ -14,17 +14,17 @@
 
 <br/>
 
-## `$ squeue -u asmaa`
+## Now
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/squeue-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="assets/squeue-light.svg"/>
-    <img src="assets/squeue-dark.svg" width="860" alt="Job queue: MHPC master at ICTP/SISSA, running until 15 December 2026. GPU acceleration of SHYFEM-BFM on Leonardo, running. PhD on the KM3NeT neutrino telescope at Caen, pending: begins December 2026."/>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/now-light.svg"/>
+    <img src="assets/now-dark.svg" width="860" alt="Now: MHPC at ICTP/SISSA until 15 December 2026. GPU acceleration of SHYFEM-BFM on Leonardo, running. PhD on KM3NeT at LPC Caen, starts December 2026."/>
   </picture>
 </div>
 
-#### `$ nsys-ui career.nsys-rep`
+## Path
 
 <div align="center">
   <picture>
@@ -34,7 +34,7 @@
   </picture>
 </div>
 
-## `$ nvim about_me.f90`
+## About
 
 ```fortran
 program asmaa
@@ -59,7 +59,7 @@ program asmaa
 end program asmaa
 ```
 
-## `$ perf record -g ./asmaa | flamegraph.pl`
+## Skills
 
 <div align="center">
   <picture>
@@ -71,7 +71,7 @@ end program asmaa
 
 <sub>Also loaded: Fortran · C · C++ · Python · Bash · MATLAB · SQL · CuPy · PETSc · BLAS/LAPACK · ROOT · Apptainer · CMake · Git · Docker · Ansible · TensorFlow · Keras · NumPy · Pandas · LaTeX · Neovim (built from source on the cluster, obviously)</sub>
 
-## `$ ls ~/work`
+## Work
 
 <div align="center">
   <picture>
@@ -82,7 +82,7 @@ end program asmaa
 </div>
 
 <details>
-<summary><code>$ cat publications_schools_grants.txt</code> &nbsp;(click to expand)</summary>
+<summary><b>Publications, schools and grants</b></summary>
 <br/>
 
 **Publication**
@@ -100,7 +100,7 @@ end program asmaa
 
 </details>
 
-## `$ ping asmaa`
+## Contact
 
 <div align="center">
   <picture>
